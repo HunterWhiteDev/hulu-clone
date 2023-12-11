@@ -10,4 +10,4 @@ To get started, follow these steps:
 4. create a file at `functions/.env` and add a varriable called `STRIPE_KEY` and enter the Stripe API key I gave you
 5. Once all the dependancies are installed and the API keys have been entered in their appropriate place, running `npm start` should spin up the local development branch
 
-Note: the firebase keys and Stripe keys can be replacedw ith your own, if you so wish to test with your own Firebase and Stripe keys
+Note: the firebase keys and Stripe keys can be replaced with your own, if you so wish to test with your own Firebase and Stripe keys
