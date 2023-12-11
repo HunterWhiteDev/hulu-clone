@@ -1,0 +1,338 @@
+[debug] [2023-10-12T22:01:09.680Z] ----------------------------------------------------------------------
+[debug] [2023-10-12T22:01:09.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xboxl\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-10-12T22:01:09.683Z] CLI Version:   12.6.2
+[debug] [2023-10-12T22:01:09.684Z] Platform:      win32
+[debug] [2023-10-12T22:01:09.684Z] Node Version:  v20.8.0
+[debug] [2023-10-12T22:01:09.684Z] Time:          Thu Oct 12 2023 18:01:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-10-12T22:01:09.684Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-12T22:01:09.759Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-12T22:01:09.759Z] > authorizing via signed-in user (hunterwhite.dev@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-10-12T22:01:09.777Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-12T22:01:09.777Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-12T22:01:09.778Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-10-12T22:01:09.786Z] [hub] writing locator at C:\Users\xboxl\AppData\Local\Temp\hub-netflix-clone-9024c.json
+[debug] [2023-10-12T22:01:09.804Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-12T22:01:09.805Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-12T22:01:09.805Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-10-12T22:01:09.807Z] defaultcredentials: writing to file C:\Users\xboxl\AppData\Roaming\firebase\hunterwhite_dev_gmail.com_application_default_credentials.json
+[debug] [2023-10-12T22:01:09.809Z] Setting GAC to C:\Users\xboxl\AppData\Roaming\firebase\hunterwhite_dev_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\xboxl\\AppData\\Roaming\\firebase\\hunterwhite_dev_gmail.com_application_default_credentials.json"}}
+[debug] [2023-10-12T22:01:09.811Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/adminSdkConfig [none]
+[debug] [2023-10-12T22:01:10.121Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/adminSdkConfig 200
+[debug] [2023-10-12T22:01:10.121Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/adminSdkConfig {"projectId":"netflix-clone-9024c","storageBucket":"netflix-clone-9024c.appspot.com"}
+[debug] [2023-10-12T22:01:10.131Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/netflix-clone-9024c/sites 
+[debug] [2023-10-12T22:01:10.857Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/netflix-clone-9024c/sites 200
+[debug] [2023-10-12T22:01:10.857Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/netflix-clone-9024c/sites {"sites":[{"name":"projects/netflix-clone-9024c/sites/netflix-clone-9024c","defaultUrl":"https://netflix-clone-9024c.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-12T22:01:10.857Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/webApps/-/config [none]
+[debug] [2023-10-12T22:01:11.208Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/webApps/-/config 200
+[debug] [2023-10-12T22:01:11.209Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c/webApps/-/config {"projectId":"netflix-clone-9024c","appId":"1:278155385039:web:ab013d74e7bcfdcd7dbfba","storageBucket":"netflix-clone-9024c.appspot.com","apiKey":"AIzaSyA3rw63dMwC288l9OgizV3K_VRViw5gy24","authDomain":"netflix-clone-9024c.firebaseapp.com","messagingSenderId":"278155385039","measurementId":"G-YVYC5X9F9Q"}
+[debug] [2023-10-12T22:01:11.213Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c [none]
+[debug] [2023-10-12T22:01:11.431Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c 200
+[debug] [2023-10-12T22:01:11.431Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-9024c {"projectId":"netflix-clone-9024c","projectNumber":"278155385039","displayName":"netflix-clone","name":"projects/netflix-clone-9024c","resources":{"hostingSite":"netflix-clone-9024c"},"state":"ACTIVE","etag":"1_bc2f1527-a235-49eb-a506-3c189a33531f"}
+[debug] [2023-10-12T22:01:11.432Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "netflix-clone-9024c" may fail or be empty.
+[info] i  hosting[netflix-clone-9024c]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[netflix-clone-9024c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-10-12T22:01:11.447Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-10-12T22:01:11.447Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-10-12T22:01:11.447Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\xboxl\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\xboxl\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-10-12T22:01:11.587Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-10-12T22:01:11.587Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-10-12T22:01:11.717Z] Validating nodejs source
+[debug] [2023-10-12T22:01:13.210Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:01:13.210Z] Building nodejs source
+[debug] [2023-10-12T22:01:13.211Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:01:13.214Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:01:13.221Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8900
+
+[debug] [2023-10-12T22:01:13.728Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/netflix-clone-9024c/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/netflix-clone-9024c/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-10-12T22:01:23.402Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\firebase.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\firebase.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:01:23.404Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\firebase.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\firebase.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:01:23.425Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:01:23.425Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:01:24.426Z] Validating nodejs source
+[debug] [2023-10-12T22:01:25.771Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:01:25.771Z] Building nodejs source
+[debug] [2023-10-12T22:01:25.771Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:01:25.773Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:01:25.782Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8683
+
+[debug] [2023-10-12T22:01:26.278Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-12T22:01:46.349Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2023-10-12T22:01:47.360Z] Validating nodejs source
+[debug] [2023-10-12T22:01:48.731Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:01:48.731Z] Building nodejs source
+[debug] [2023-10-12T22:01:48.731Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:01:48.734Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:01:48.741Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8164
+
+[debug] [2023-10-12T22:01:49.249Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-12T22:02:05.554Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\firebase.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\firebase.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:02:05.554Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\firebase.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\firebase.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:02:05.575Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:02:05.576Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:02:06.588Z] Validating nodejs source
+[debug] [2023-10-12T22:02:07.921Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:02:07.921Z] Building nodejs source
+[debug] [2023-10-12T22:02:07.921Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:02:07.923Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:02:07.929Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8254
+
+[debug] [2023-10-12T22:02:08.418Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-12T22:04:13.326Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2023-10-12T22:04:13.906Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:04:13.907Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:04:14.921Z] Validating nodejs source
+[debug] [2023-10-12T22:04:16.306Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:04:16.306Z] Building nodejs source
+[debug] [2023-10-12T22:04:16.306Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:04:16.308Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:04:16.315Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8017
+
+[debug] [2023-10-12T22:04:16.829Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-12T22:05:56.266Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2023-10-12T22:05:56.865Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2023-10-12T22:05:56.868Z] File C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\xboxl\\OneDrive\\Desktop\\netflix-clone\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2023-10-12T22:05:57.876Z] Validating nodejs source
+[debug] [2023-10-12T22:05:59.425Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.2.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2023-10-12T22:05:59.426Z] Building nodejs source
+[debug] [2023-10-12T22:05:59.426Z] Failed to find version of module node: reached end of search path C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-10-12T22:05:59.428Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-12T22:05:59.437Z] Found firebase-functions binary at 'C:\Users\xboxl\OneDrive\Desktop\netflix-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8857
+
+[debug] [2023-10-12T22:06:00.004Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-12T22:10:31.244Z] Received signal SIGHUP 1

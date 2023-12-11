@@ -1,0 +1,139 @@
+.row__modalWrapper {
+  z-index: 1000000 !important;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(16, 16, 16, 0.43);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+.row__modal {
+  color: white;
+  background-color: #181818;
+  margin-top: 1rem;
+  width: 40vw;
+  border-radius: 1rem;
+  overflow-y: scroll;
+  max-height: 95%;
+  transition: scale ease-in-out 100ms;
+  animation: grow 400ms ease-in-out;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.row__modalTrailer {
+  width: 100%;
+}
+.row__modal::-webkit-scrollbar {
+  display: none;
+}
+
+.row__modalBannerActions {
+  position: relative;
+}
+
+.row__modalBannerActions > h2 {
+  font-size: 36px;
+  margin-left: 0.5rem;
+  text-shadow: 0px 0px 15px black;
+}
+
+.modal__ModalTopBtnContainer {
+  /* margin-left: 10px; */
+}
+
+.modal__ModalTopBtnContainer button {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.thumb {
+  background-color: #000000af;
+  border: 1px solid gray;
+  border-radius: 100%;
+  padding: 0.75rem;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+}
+
+.thumbUp:hover {
+  border-color: green;
+  opacity: 0.8;
+}
+
+.thumbDown:hover {
+  border-color: red;
+  opacity: 0.8;
+}
+
+.row__modalBottom {
+  background-color: #181818;
+  padding: 10px;
+}
+
+.row__modalBottom > p {
+  width: 75%;
+  font-weight: 500;
+}
+
+.row__modalBottom > h3 {
+  margin: 1rem 0;
+}
+
+.modal__relatedMoviesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.modal__relatedMovie {
+  margin: 0.5rem;
+  background-color: rgb(37, 37, 37);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  box-shadow: 0 0 2.5px black;
+  transition: all ease-in-out 250ms;
+  max-width: 30%;
+}
+
+.modal__relatedMovie:hover {
+  transform: scale(1.05);
+}
+
+.modal__relatedMovie > img {
+  max-width: 100%;
+
+  object-fit: contain;
+  flex: 0.3;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.modal__relatedMovieDesc {
+  padding: 0.5rem;
+}
+
+.modal__relatedMovieDesc > h3 {
+  margin-bottom: 5px;
+}
+
+.modal__addToList {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  color: black !important;
+  background-color: white !important;
+  border-radius: 5px;
+  margin: 15px 0 !important;
+  margin-left: 10px !important;
+}
