@@ -1,4 +1,10 @@
-### Note: You need the STRIPE_KEY for `functions/.env` and the API keys for `src/firebaseKeys.ts`. Contact me at hunter.white1801@gmail.com to get them.
+### Notice: You need the you need to get the following keys from me:
+
+STRIPE_KEY for `functions/.env`
+
+API keys for `src/firebaseKeys.ts`.
+
+Contact me at hunter.white1801@gmail.com to get them.
 
 ## Getting Started:
 
