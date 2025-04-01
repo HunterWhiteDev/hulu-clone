@@ -17,9 +17,9 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no hunter@hunterwhitedev.com << 'EOF'
             cd /home/hunter/websites/netflix-clone || exit
-            git pull origin new || exit 1
+            git pull origin master || exit 1
             sudo npm install || exit 1
             sudo npm run build || exit 1
-            sudo cp -r dist/* /home/hunter/websites/netflix-clone/public_html || exit 1
+            sudo cp -r build/* /home/hunter/websites/netflix-clone/public_html || exit 1
             sudo systemctl restart apache2 || exit 1
           EOF
