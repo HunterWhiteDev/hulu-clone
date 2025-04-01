@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to Server
         run: |
           ssh -o StrictHostKeyChecking=no hunter@hunterwhitedev.com << 'EOF'
-            cd /home/hunter/websites/netflix || exit
+            cd /home/hunter/websites/netflix-clone || exit
             git pull origin new || exit 1
             sudo npm install || exit 1
             sudo npm run build || exit 1
