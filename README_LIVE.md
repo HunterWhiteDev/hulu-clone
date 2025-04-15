@@ -1,12 +1,10 @@
 # Getting Started
 
-To login, use the following credentials:
+### `Home Page`
 
 email/username: `123@test.com`
 
 password: `password`
-
-### `Home Page`
 
 Login to your account.
 ![login!](https://i.imgur.com/rVQVfb3.png)
