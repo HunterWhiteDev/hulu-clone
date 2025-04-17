@@ -2,11 +2,7 @@
 
 ### `Home Page`
 
-email/username: `123@test.com`
-
-password: `password`
-
-Login to your account.
+Login with the following credentials: email: `123@test.com` password: `password`
 ![login!](https://i.imgur.com/rVQVfb3.png)
 
 ### `Movies`
