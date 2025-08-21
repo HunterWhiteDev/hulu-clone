@@ -12,19 +12,22 @@
 
 .nav__contents {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
+.nav__contentsLeft {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
 .nav__logo {
-  position: fixed;
-  left: 0px;
   width: 80px;
   object-fit: contain;
-  padding-left: 20px;
   cursor: pointer;
-  top: 10px;
-  margin-top: 0.75rem;
 }
 
 .nav__avatar {
@@ -41,7 +44,6 @@
 
 .nav__myList {
   margin-top: 5px;
-  margin-left: 100px;
   align-self: center;
   justify-self: center;
   background-color: transparent;
